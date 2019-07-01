@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.centered-form {
+    height: 100vh;
+    background: rgb(44, 43, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centered-form__box {
+    height: 420px;
+    width: 300px;
+    background: rgb(247, 244, 244);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-form__box h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.join-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-form label {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.join-form input {
+    height: 2.5rem;
+    font-size: 1.3rem;
+    background: #fff;
+    padding: 0 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.join-form button {
+    height: 3.5rem;
+    background: purple;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+
+
+#chat-area {
+    height: 100vh;
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#chat-sidebar {
+    flex: 0 0 25%;
+    background: #000;
+    color: #fff;
+    
+}
+.room-title {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.list-title {
+    margin-left: 10px;
+}
+
+.users {
+    list-style: none;
+}
+
+.users li {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+#chat-main {
+    flex: 0 0 75%;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#messages {
+    flex: 1;
+}
+
+#chat {
+    display: flex;
+    flex-direction: row;
+}
+
+#chat-form {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#message-box {
+    flex: 1;
+    height: 45px;
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+
+.message {
+    font-size: 1.5rem;
+    line-height: 0.4rem;
+    margin-bottom: 3rem;
+}
+
+.user {
+   font-weight: bold;
+   margin-right: 2rem; 
+}
+
+#messageSubmitBtn {
+  margin: 0 0.8rem;
+  width: 100px;
+  background: purple;
+  height: 50px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#geoLocationBtn {
+    width: 150px;
+    background: purple;
+    height: 50px;
+    color: #fff;
+    font-size: 1rem;
+}
